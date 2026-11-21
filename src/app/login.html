@@ -1,0 +1,109 @@
+<main class="login-page">
+  <!-- LEFT: product information -->
+  <section class="info-panel">
+    <div class="logo">
+      <span class="logo-mark"><i></i><i></i><i></i><i></i></span>
+      <span>Commerce</span>
+    </div>
+
+    <div class="info-body">
+      <span class="eyebrow">PLATFORM OWNER ADMINISTRATION</span>
+      <h1>Commerce &amp; Sales Management Platform</h1>
+      <p>
+        A unified workspace to oversee partners, product catalog, multi-vendor orders, and finance.
+      </p>
+
+      <ul class="features">
+        <li>
+          <span>↗</span>
+          <div>
+            <strong>Vendor management</strong><small>Onboarding, verification, and performance</small>
+          </div>
+        </li>
+        <li>
+          <span>◇</span>
+          <div>
+            <strong>Catalog control</strong><small>Listings, categories, brands, and inventory</small>
+          </div>
+        </li>
+        <li>
+          <span>◈</span>
+          <div><strong>Orders &amp; finance</strong><small>Track fulfillment, commissions, and settlements</small></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="stats">
+      <div><strong>$2.48M</strong><small>Total sales GMV</small></div>
+      <div><strong>1,284</strong><small>Active vendors</small></div>
+      <div><strong>99.9%</strong><small>Platform uptime</small></div>
+    </div>
+  </section>
+
+  <!-- RIGHT: login -->
+  <section class="form-panel">
+    <div class="form-card">
+      <h2>Welcome back</h2>
+      <p class="sub">Sign in to the Commerce &amp; Sales Management Platform</p>
+
+      <form (submit)="submitLogin($event)" novalidate>
+        <label for="username">Username or email</label>
+        <div class="field">
+          <input
+            id="username"
+            name="username"
+            type="text"
+            autocomplete="username"
+            placeholder="you@company.com"
+            [(ngModel)]="username"
+            required
+          />
+        </div>
+
+        <div class="label-row">
+          <label for="password">Password</label>
+          <a href="#forgot">Forgot password?</a>
+        </div>
+        <div class="field">
+          <input
+            id="password"
+            name="password"
+            autocomplete="current-password"
+            [type]="passwordVisible ? 'text' : 'password'"
+            placeholder="Enter your password"
+            [(ngModel)]="password"
+            required
+          />
+          <button
+            type="button"
+            class="toggle"
+            (click)="passwordVisible = !passwordVisible"
+            [attr.aria-label]="passwordVisible ? 'Hide password' : 'Show password'"
+          >
+            {{ passwordVisible ? 'Hide' : 'Show' }}
+          </button>
+        </div>
+
+        <label class="remember">
+          <input type="checkbox" name="remember" [(ngModel)]="rememberMe" /> Keep me signed in
+        </label>
+
+        @if (message) {
+          <p class="error" role="alert">{{ message }}</p>
+        }
+
+        <button class="submit" type="submit">Sign in <span>→</span></button>
+      </form>
+
+      <div class="demo">
+        <div>
+          <strong>Platform Owner demo</strong>
+          <small>admin&#64;commerce.com · Admin&#64;123</small>
+        </div>
+        <button type="button" (click)="fillDemo()">Use demo</button>
+      </div>
+    </div>
+
+    <footer>© 2026 Commerce Platform · <a href="#privacy">Privacy</a> · <a href="#help">Help</a></footer>
+  </section>
+</main>
