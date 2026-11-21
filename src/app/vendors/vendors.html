@@ -1,0 +1,66 @@
+<main class="data-page">
+  <header class="data-heading">
+    <div>
+      <span class="data-eyebrow">PLATFORM OWNER / DIRECTORY</span>
+      <h1>Vendors</h1>
+      <p>
+        Seller onboarding, KYC and tax verification, account approvals, and performance tracking.
+      </p>
+    </div>
+    <button class="data-action" type="button">＋ Onboard vendor</button>
+  </header>
+  <section class="data-card">
+    <header class="data-card-heading">
+      <div>
+        <h2>Vendor directory</h2>
+        <p>Review account health and verification status.</p>
+      </div>
+      <span class="record-count">{{ vendors.length }} accounts</span>
+    </header>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>VENDOR</th>
+            <th>CATEGORY</th>
+            <th>REGION</th>
+            <th>GMV</th>
+            <th>VERIFICATION</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (vendor of vendors; track vendor.id) {
+            <tr>
+              <td>
+                <span class="primary-cell">{{ vendor.name }}</span><small class="secondary-cell"
+                  >{{ vendor.id }} · {{ vendor.contact }}</small
+                >
+              </td>
+              <td>{{ vendor.category }}</td>
+              <td>{{ vendor.region }}</td>
+              <td class="primary-cell">{{ vendor.gmv }}</td>
+              <td>
+                <span
+                  class="status-pill"
+                  [class.in-review]="vendor.verification === 'In review'"
+                  [class.documents-needed]="vendor.verification === 'Documents needed'"
+                  >{{ vendor.verification }}</span
+                >
+              </td>
+              <td>
+                <span
+                  class="status-pill"
+                  [class.pending]="vendor.status === 'Pending'"
+                  [class.documents-needed]="vendor.status === 'Action needed'"
+                  >{{ vendor.status }}</span
+                >
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+    <footer class="data-footnote">Showing sample directory data for the Commerce platform.</footer>
+  </section>
+</main>

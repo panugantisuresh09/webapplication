@@ -1,0 +1,58 @@
+<main class="data-page">
+  <header class="data-heading">
+    <div>
+      <span class="data-eyebrow">PLATFORM OWNER / OPERATIONS</span>
+      <h1>Orders</h1>
+      <p>Track multi-vendor orders, split shipments, cancellations, returns, and disputes.</p>
+    </div>
+    <button class="data-action" type="button">Export orders</button>
+  </header>
+  <section class="data-card">
+    <header class="data-card-heading">
+      <div>
+        <h2>Order management</h2>
+        <p>Monitor fulfillment across the marketplace.</p>
+      </div>
+      <span class="record-count">{{ orders.length }} recent orders</span>
+    </header>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>ORDER</th>
+            <th>CUSTOMER</th>
+            <th>ITEMS</th>
+            <th>VENDORS</th>
+            <th>PLACED</th>
+            <th>TOTAL</th>
+            <th>FULFILLMENT</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (order of orders; track order.orderId) {
+            <tr>
+              <td class="primary-cell">{{ order.orderId }}</td>
+              <td>{{ order.customer }}</td>
+              <td>{{ order.items }}</td>
+              <td>{{ order.vendorCount }}</td>
+              <td>{{ order.placed }}</td>
+              <td class="primary-cell">{{ order.total }}</td>
+              <td>{{ order.fulfillment }}</td>
+              <td>
+                <span
+                  class="status-pill"
+                  [class.pending]="order.status === 'Pending'"
+                  [class.shipped]="order.status === 'Shipped'"
+                  [class.review-needed]="order.status === 'Review needed'"
+                  >{{ order.status }}</span
+                >
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+    <footer class="data-footnote">Showing sample multi-vendor orders.</footer>
+  </section>
+</main>

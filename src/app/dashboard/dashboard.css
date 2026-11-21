@@ -304,6 +304,9 @@
   font-size: 16px;
   cursor: pointer;
 }
+.sign-out-mobile {
+  display: none;
+}
 .icon-button:hover {
   background: #f1f4f1;
 }
@@ -676,6 +679,10 @@
   .topbar-profile b,
   .topbar-divider {
     display: none;
+  }
+  .sign-out-mobile {
+    display: inline-grid;
+    place-items: center;
   }
   .workspace-page {
     width: calc(100% - 32px);

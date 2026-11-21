@@ -1,0 +1,110 @@
+[
+  {
+    "settlementId": "STL-9021",
+    "period": "Nov 16–22, 2026",
+    "grossSales": "$428,600.00",
+    "commissionRate": "8.0%",
+    "commission": "$34,288.00",
+    "payout": "$394,312.00",
+    "status": "Scheduled"
+  },
+  {
+    "settlementId": "STL-9020",
+    "period": "Nov 9–15, 2026",
+    "grossSales": "$396,240.00",
+    "commissionRate": "7.5%",
+    "commission": "$29,718.00",
+    "payout": "$366,522.00",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9019",
+    "period": "Nov 2–8, 2026",
+    "grossSales": "$372,180.00",
+    "commissionRate": "8.0%",
+    "commission": "$29,774.40",
+    "payout": "$342,405.60",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9018",
+    "period": "Oct 26–Nov 1, 2026",
+    "grossSales": "$341,920.00",
+    "commissionRate": "7.5%",
+    "commission": "$25,644.00",
+    "payout": "$316,276.00",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9017",
+    "period": "Oct 19–25, 2026",
+    "grossSales": "$328,450.00",
+    "commissionRate": "8.0%",
+    "commission": "$26,276.00",
+    "payout": "$302,174.00",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9016",
+    "period": "Oct 12–18, 2026",
+    "grossSales": "$315,720.00",
+    "commissionRate": "7.5%",
+    "commission": "$23,679.00",
+    "payout": "$292,041.00",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9015",
+    "period": "Oct 5–11, 2026",
+    "grossSales": "$302,880.00",
+    "commissionRate": "8.0%",
+    "commission": "$24,230.40",
+    "payout": "$278,649.60",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9014",
+    "period": "Sep 28–Oct 4, 2026",
+    "grossSales": "$294,360.00",
+    "commissionRate": "7.5%",
+    "commission": "$22,077.00",
+    "payout": "$272,283.00",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9013",
+    "period": "Sep 21–27, 2026",
+    "grossSales": "$281,940.00",
+    "commissionRate": "8.0%",
+    "commission": "$22,555.20",
+    "payout": "$259,384.80",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9012",
+    "period": "Sep 14–20, 2026",
+    "grossSales": "$276,510.00",
+    "commissionRate": "7.5%",
+    "commission": "$20,738.25",
+    "payout": "$255,771.75",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9011",
+    "period": "Sep 7–13, 2026",
+    "grossSales": "$263,780.00",
+    "commissionRate": "8.0%",
+    "commission": "$21,102.40",
+    "payout": "$242,677.60",
+    "status": "Paid"
+  },
+  {
+    "settlementId": "STL-9010",
+    "period": "Aug 31–Sep 6, 2026",
+    "grossSales": "$251,360.00",
+    "commissionRate": "7.5%",
+    "commission": "$18,852.00",
+    "payout": "$232,508.00",
+    "status": "Paid"
+  }
+]

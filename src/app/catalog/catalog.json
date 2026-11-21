@@ -1,0 +1,110 @@
+[
+  {
+    "sku": "HME-2048",
+    "product": "Arc Ceramic Table Lamp",
+    "category": "Home & Living / Lighting",
+    "brand": "Form & Field",
+    "inventory": 248,
+    "price": "$129.00",
+    "status": "Approved"
+  },
+  {
+    "sku": "OFF-1182",
+    "product": "Studio Recycled Notebook Set",
+    "category": "Office / Paper",
+    "brand": "Studio North",
+    "inventory": 96,
+    "price": "$24.50",
+    "status": "Pending review"
+  },
+  {
+    "sku": "ELC-7304",
+    "product": "Pulse Wireless Headphones",
+    "category": "Electronics / Audio",
+    "brand": "Pulse Audio",
+    "inventory": 0,
+    "price": "$189.00",
+    "status": "Out of stock"
+  },
+  {
+    "sku": "KIT-0861",
+    "product": "Everyday Chef Knife",
+    "category": "Kitchen / Tools",
+    "brand": "Copper & Pine",
+    "inventory": 54,
+    "price": "$78.00",
+    "status": "Approved"
+  },
+  {
+    "sku": "HME-2091",
+    "product": "Woven Seagrass Storage Basket",
+    "category": "Home & Living / Storage",
+    "brand": "Cedar & Coast",
+    "inventory": 132,
+    "price": "$42.00",
+    "status": "Approved"
+  },
+  {
+    "sku": "OFF-1210",
+    "product": "Aluminum Desk Organizer",
+    "category": "Office / Desk Accessories",
+    "brand": "Studio North",
+    "inventory": 61,
+    "price": "$36.00",
+    "status": "Approved"
+  },
+  {
+    "sku": "ELC-7352",
+    "product": "Compact USB-C Dock",
+    "category": "Electronics / Accessories",
+    "brand": "Atlas Connect",
+    "inventory": 18,
+    "price": "$89.00",
+    "status": "Pending review"
+  },
+  {
+    "sku": "KIT-0914",
+    "product": "Oak Serving Board",
+    "category": "Kitchen / Serveware",
+    "brand": "Copper & Pine",
+    "inventory": 77,
+    "price": "$54.00",
+    "status": "Approved"
+  },
+  {
+    "sku": "APP-3408",
+    "product": "Everyday Cotton Overshirt",
+    "category": "Apparel / Shirts",
+    "brand": "Evergreen Outfitters",
+    "inventory": 43,
+    "price": "$68.00",
+    "status": "Pending review"
+  },
+  {
+    "sku": "GDN-1860",
+    "product": "Powder-Coated Planter Set",
+    "category": "Outdoor / Planters",
+    "brand": "Fieldstone",
+    "inventory": 205,
+    "price": "$59.00",
+    "status": "Approved"
+  },
+  {
+    "sku": "FOD-0281",
+    "product": "Organic Breakfast Blend",
+    "category": "Food & Beverage / Pantry",
+    "brand": "Orchard Pantry",
+    "inventory": 16,
+    "price": "$18.50",
+    "status": "Low stock"
+  },
+  {
+    "sku": "LGT-4402",
+    "product": "Adjustable Reading Sconce",
+    "category": "Home & Living / Lighting",
+    "brand": "Lumen Works",
+    "inventory": 0,
+    "price": "$112.00",
+    "status": "Out of stock"
+  }
+]

@@ -1,0 +1,52 @@
+<main class="data-page">
+  <header class="data-heading">
+    <div>
+      <span class="data-eyebrow">PLATFORM OWNER / FINANCE</span>
+      <h1>Finance</h1>
+      <p>Configure commissions, automate payouts, and review invoicing and settlements.</p>
+    </div>
+    <button class="data-action" type="button">Export settlements</button>
+  </header>
+  <section class="data-card">
+    <header class="data-card-heading">
+      <div>
+        <h2>Settlement reports</h2>
+        <p>Commission and payout activity by settlement period.</p>
+      </div>
+      <span class="record-count">{{ settlements.length }} periods</span>
+    </header>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>SETTLEMENT</th>
+            <th>PERIOD</th>
+            <th>GROSS SALES</th>
+            <th>COMMISSION RATE</th>
+            <th>COMMISSION</th>
+            <th>VENDOR PAYOUT</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (settlement of settlements; track settlement.settlementId) {
+            <tr>
+              <td class="primary-cell">{{ settlement.settlementId }}</td>
+              <td>{{ settlement.period }}</td>
+              <td>{{ settlement.grossSales }}</td>
+              <td>{{ settlement.commissionRate }}</td>
+              <td class="primary-cell">{{ settlement.commission }}</td>
+              <td class="primary-cell">{{ settlement.payout }}</td>
+              <td>
+                <span class="status-pill" [class.scheduled]="settlement.status === 'Scheduled'">{{
+                  settlement.status
+                }}</span>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+    <footer class="data-footnote">Showing sample commission and settlement data.</footer>
+  </section>
+</main>

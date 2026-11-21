@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthState } from '../auth.guard';
 
 @Component({
   selector: 'app-login',
@@ -18,7 +19,10 @@ export class Login {
   private readonly demoUsername = 'admin@commerce.com';
   private readonly demoPassword = 'Admin@123';
 
-  constructor(private readonly router: Router) {}
+  constructor(
+    private readonly router: Router,
+    private readonly authState: AuthState,
+  ) {}
 
   fillDemo(): void {
     this.username = this.demoUsername;
@@ -41,6 +45,7 @@ export class Login {
       return;
     }
     this.message = '';
+    this.authState.login();
     void this.router.navigate(['/dashboard']);
   }
 }

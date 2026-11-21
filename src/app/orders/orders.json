@@ -1,0 +1,122 @@
+[
+  {
+    "orderId": "ORD-2048",
+    "customer": "Northwest Retail Group",
+    "items": 8,
+    "vendorCount": 3,
+    "placed": "Nov 21, 2026",
+    "total": "$2,480.00",
+    "fulfillment": "Split shipment",
+    "status": "Confirmed"
+  },
+  {
+    "orderId": "ORD-2047",
+    "customer": "Brightline Supplies",
+    "items": 4,
+    "vendorCount": 2,
+    "placed": "Nov 21, 2026",
+    "total": "$1,120.00",
+    "fulfillment": "Awaiting dispatch",
+    "status": "Pending"
+  },
+  {
+    "orderId": "ORD-2046",
+    "customer": "Harbor Foods Co.",
+    "items": 12,
+    "vendorCount": 4,
+    "placed": "Nov 20, 2026",
+    "total": "$3,905.50",
+    "fulfillment": "In transit",
+    "status": "Shipped"
+  },
+  {
+    "orderId": "ORD-2045",
+    "customer": "Summit Traders",
+    "items": 2,
+    "vendorCount": 1,
+    "placed": "Nov 19, 2026",
+    "total": "$640.00",
+    "fulfillment": "Return requested",
+    "status": "Review needed"
+  },
+  {
+    "orderId": "ORD-2044",
+    "customer": "Cedar & Coast Market",
+    "items": 6,
+    "vendorCount": 2,
+    "placed": "Nov 18, 2026",
+    "total": "$1,875.25",
+    "fulfillment": "Ready to dispatch",
+    "status": "Confirmed"
+  },
+  {
+    "orderId": "ORD-2043",
+    "customer": "Metro Kitchen Supply",
+    "items": 9,
+    "vendorCount": 3,
+    "placed": "Nov 18, 2026",
+    "total": "$2,160.00",
+    "fulfillment": "Split shipment",
+    "status": "Confirmed"
+  },
+  {
+    "orderId": "ORD-2042",
+    "customer": "Evergreen Outfitters",
+    "items": 3,
+    "vendorCount": 1,
+    "placed": "Nov 17, 2026",
+    "total": "$684.00",
+    "fulfillment": "Awaiting payment",
+    "status": "Pending"
+  },
+  {
+    "orderId": "ORD-2041",
+    "customer": "Atlas Tech Depot",
+    "items": 5,
+    "vendorCount": 2,
+    "placed": "Nov 17, 2026",
+    "total": "$4,320.00",
+    "fulfillment": "In transit",
+    "status": "Shipped"
+  },
+  {
+    "orderId": "ORD-2040",
+    "customer": "Bluebird Paper Co.",
+    "items": 11,
+    "vendorCount": 4,
+    "placed": "Nov 16, 2026",
+    "total": "$1,248.90",
+    "fulfillment": "Split shipment",
+    "status": "Confirmed"
+  },
+  {
+    "orderId": "ORD-2039",
+    "customer": "Orchard Pantry",
+    "items": 7,
+    "vendorCount": 2,
+    "placed": "Nov 15, 2026",
+    "total": "$936.00",
+    "fulfillment": "Cancellation requested",
+    "status": "Review needed"
+  },
+  {
+    "orderId": "ORD-2038",
+    "customer": "Lumen Lighting Works",
+    "items": 2,
+    "vendorCount": 1,
+    "placed": "Nov 14, 2026",
+    "total": "$448.00",
+    "fulfillment": "Delivered",
+    "status": "Shipped"
+  },
+  {
+    "orderId": "ORD-2037",
+    "customer": "Fieldstone Outdoor",
+    "items": 4,
+    "vendorCount": 2,
+    "placed": "Nov 13, 2026",
+    "total": "$1,520.00",
+    "fulfillment": "Dispute opened",
+    "status": "Review needed"
+  }
+]

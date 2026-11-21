@@ -1,0 +1,122 @@
+[
+  {
+    "id": "VEN-1042",
+    "name": "Northwest Retail Group",
+    "contact": "Avery Chen",
+    "category": "Home & Living",
+    "region": "North America",
+    "gmv": "$428,600",
+    "verification": "Verified",
+    "status": "Active"
+  },
+  {
+    "id": "VEN-1041",
+    "name": "Brightline Supplies",
+    "contact": "Jordan Brooks",
+    "category": "Office Supplies",
+    "region": "North America",
+    "gmv": "$316,240",
+    "verification": "In review",
+    "status": "Pending"
+  },
+  {
+    "id": "VEN-1040",
+    "name": "Harbor Foods Co.",
+    "contact": "Morgan Patel",
+    "category": "Food & Beverage",
+    "region": "APAC",
+    "gmv": "$289,120",
+    "verification": "Verified",
+    "status": "Active"
+  },
+  {
+    "id": "VEN-1039",
+    "name": "Summit Traders",
+    "contact": "Riley Johnson",
+    "category": "Electronics",
+    "region": "Europe",
+    "gmv": "$174,890",
+    "verification": "Documents needed",
+    "status": "Action needed"
+  },
+  {
+    "id": "VEN-1038",
+    "name": "Cedar & Coast Market",
+    "contact": "Taylor Nguyen",
+    "category": "Home & Living",
+    "region": "North America",
+    "gmv": "$162,450",
+    "verification": "Verified",
+    "status": "Active"
+  },
+  {
+    "id": "VEN-1037",
+    "name": "Metro Kitchen Supply",
+    "contact": "Casey Rivera",
+    "category": "Kitchen & Dining",
+    "region": "Europe",
+    "gmv": "$148,920",
+    "verification": "Verified",
+    "status": "Active"
+  },
+  {
+    "id": "VEN-1036",
+    "name": "Evergreen Outfitters",
+    "contact": "Drew Wilson",
+    "category": "Apparel",
+    "region": "APAC",
+    "gmv": "$137,680",
+    "verification": "In review",
+    "status": "Pending"
+  },
+  {
+    "id": "VEN-1035",
+    "name": "Atlas Tech Depot",
+    "contact": "Samira Khan",
+    "category": "Electronics",
+    "region": "Middle East",
+    "gmv": "$126,310",
+    "verification": "Verified",
+    "status": "Active"
+  },
+  {
+    "id": "VEN-1034",
+    "name": "Bluebird Paper Co.",
+    "contact": "Jamie Foster",
+    "category": "Office Supplies",
+    "region": "North America",
+    "gmv": "$118,740",
+    "verification": "Documents needed",
+    "status": "Action needed"
+  },
+  {
+    "id": "VEN-1033",
+    "name": "Orchard Pantry",
+    "contact": "Alex Morgan",
+    "category": "Food & Beverage",
+    "region": "Europe",
+    "gmv": "$104,580",
+    "verification": "Verified",
+    "status": "Active"
+  },
+  {
+    "id": "VEN-1032",
+    "name": "Lumen Lighting Works",
+    "contact": "Robin Das",
+    "category": "Home & Living",
+    "region": "APAC",
+    "gmv": "$96,230",
+    "verification": "In review",
+    "status": "Pending"
+  },
+  {
+    "id": "VEN-1031",
+    "name": "Fieldstone Outdoor",
+    "contact": "Chris Bennett",
+    "category": "Outdoor & Garden",
+    "region": "North America",
+    "gmv": "$88,940",
+    "verification": "Verified",
+    "status": "Active"
+  }
+]

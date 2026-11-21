@@ -1,0 +1,58 @@
+<main class="data-page">
+  <header class="data-heading">
+    <div>
+      <span class="data-eyebrow">PLATFORM OWNER / PRODUCT GOVERNANCE</span>
+      <h1>Catalog</h1>
+      <p>
+        Product listing approvals, category mapping, brand management, and global inventory rules.
+      </p>
+    </div>
+    <button class="data-action" type="button">＋ Add product</button>
+  </header>
+  <section class="data-card">
+    <header class="data-card-heading">
+      <div>
+        <h2>Product catalog</h2>
+        <p>Manage listings and inventory across the platform.</p>
+      </div>
+      <span class="record-count">{{ products.length }} products</span>
+    </header>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>PRODUCT</th>
+            <th>CATEGORY</th>
+            <th>BRAND</th>
+            <th>INVENTORY</th>
+            <th>PRICE</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (product of products; track product.sku) {
+            <tr>
+              <td>
+                <span class="primary-cell">{{ product.product }}</span
+                ><small class="secondary-cell">{{ product.sku }}</small>
+              </td>
+              <td>{{ product.category }}</td>
+              <td>{{ product.brand }}</td>
+              <td>{{ product.inventory }}</td>
+              <td class="primary-cell">{{ product.price }}</td>
+              <td>
+                <span
+                  class="status-pill"
+                  [class.in-review]="product.status === 'Pending review'"
+                  [class.out-of-stock]="product.status === 'Out of stock'"
+                  >{{ product.status }}</span
+                >
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+    <footer class="data-footnote">Showing sample catalog data.</footer>
+  </section>
+</main>
